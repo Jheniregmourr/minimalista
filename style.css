@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+:root{
+    --fontpadrãocolor:#363636;
+    --fonttextcolor:#AAAAAA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-image: url(../../assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+main{
+    height: 40vw;
+    margin: auto;
+}
+header{
+    position: relative;
+    top: 20%;
+    margin: auto;
+    width: 70%;
+}
+#menu{
+    margin: auto;
+    text-align: center;
+}
+header #menu nav a{
+    padding: 5%;
+}
+.div01{
+    position: relative;
+    top: 25%;
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 40px;
+}
+.div01 > .textincial{
+    width: 60%;
+    height: 80%;
+    position: relative;
+    top: 10%;
+    bottom: 10%;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.div01 > .textincial > h1, h2, p{
+    margin: auto 50px;
+    position: relative;
+    top: 5%;
+}
+.div01 > .textincial > h1, h2{
+    line-height: 30px;
+}
+.div01 > .textincial > h1{
+    font-weight: 600;
+    padding-bottom:10px ;
+    color: #363636;
+}
+.div01 > .textincial > h2, p{
+    color: #AAAAAA;
+    font-weight: 300;
+}
+.div01 > .imagem{
+    width: 30%;
+    height: 80%;
+    position: relative;
+    bottom: 70%;
+    left: 65%;
+    border-radius: 30px;
+}
+.div01 > .imagem > img{
+    width: 100%;
+    border-radius: 30px;
+}
+footer{
+    height: 10vw;
+}
+/*Tornar-lo responsivo e tornar o menu funcional*/
